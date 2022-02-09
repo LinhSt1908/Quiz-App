@@ -4,7 +4,6 @@ export default {
   title: "Components/Card",
 };
 
-export const Default = () => DefaultHtml;
 
 export const Error = () => /* html */ `
   <article class="Card Card--error">
