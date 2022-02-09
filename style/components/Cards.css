@@ -3,9 +3,7 @@
 .Card {
   background-color: lightgrey;
   border-radius: var(--radius);
-  padding: 16px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  margin-top: 0;
+  padding: 10px;
 }
 
 .Card--error {
@@ -13,15 +11,17 @@
 }
 
 .Card__title {
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--color-primary);
+  margin: 20px;
 }
 
-.Card__title--large {
-  font-size: 1.2rem;
+.Card__question {
+  font-size: 20px;
 }
+
+color: var(--color-primary);
 
 .Card__content {
   font-family: monospace;
