@@ -16,6 +16,8 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .Card__question {
@@ -46,6 +48,8 @@ color: var(--color-primary);
   border-radius: var(--radius);
   padding: 20px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .boxSmall {

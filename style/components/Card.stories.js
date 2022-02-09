@@ -7,7 +7,7 @@ export default {
 
 export const Default= () => /* html */ `
   <article class="Card Card--error">
-    <center><h4 class="Card__title">Quiz App</h4></center>
+    <h4 class="Card__title">Quiz App</h4>
   </article>
   <div class="Box1">
   <center><div class="Card__question"><strong>Frage 1</strong></div><center>
