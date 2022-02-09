@@ -4,6 +4,7 @@
   background-color: lightgrey;
   border-radius: var(--radius);
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .Card--error {
@@ -25,4 +26,33 @@ color: var(--color-primary);
 
 .Card__content {
   font-family: monospace;
+}
+
+.Card__answer {
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.Card__choice {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Box1 {
+  display: flex;
+  box-sizing: border-box;
+  background-color: rgba(208, 154, 17, 0.221);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.boxSmall {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 100px;
+  border: 2px solid rgba(212, 31, 11, 0.817);
+  padding: 20px;
 }
