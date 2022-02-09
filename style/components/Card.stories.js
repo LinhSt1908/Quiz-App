@@ -9,11 +9,22 @@ export const Default= () => /* html */ `
   <article class="Card Card--error">
     <center><h4 class="Card__title">Quiz App</h4></center>
   </article>
-  <div>
-  <center><div class="Card__question">Frage 1</div></center>
+  <div class="Box1">
+  <center><div class="Card__question"><strong>Frage 1</strong></div><center>
   <p class="Card__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
-  <button>Antwort</button>
-  <div>A</div> <div>B</div> <div>C</div>
+  <button class="Card__answer">Antwort</button>
+  <div class="Card__choice">
+  <div class="boxSmall">A</div> <div class="boxSmall">B</div> <div class="boxSmall">C</div> <div class="boxSmall">D</div>
+  </div>
+  </div>
+
+  <div class="Box1">
+  <center><div class="Card__question"><strong>Frage 2</strong></div><center>
+  <p class="Card__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+  <button class="Card__answer">Antwort</button>
+  <div class="Card__choice">
+  <div class="boxSmall">A</div> <div class="boxSmall">B</div> <div class="boxSmall">C</div> <div class="boxSmall">D</div>
+  </div>
   </div>
 `;
 
