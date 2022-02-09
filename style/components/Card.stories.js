@@ -10,7 +10,7 @@ export const Default= () => /* html */ `
     <h4 class="Card__title">Quiz App</h4>
   </article>
   <div class="Box1">
-  <center><div class="Card__question"><strong>Frage 1</strong></div><center>
+  <div class="Card__question"><strong>Frage 1</strong></div>
   <p class="Card__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
   <button class="Card__answer">Antwort</button>
   <div class="Card__choice">
@@ -19,7 +19,7 @@ export const Default= () => /* html */ `
   </div>
 
   <div class="Box1">
-  <center><div class="Card__question"><strong>Frage 2</strong></div><center>
+  <div class="Card__question"><strong>Frage 2</strong></div>
   <p class="Card__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
   <button class="Card__answer">Antwort</button>
   <div class="Card__choice">
@@ -28,7 +28,7 @@ export const Default= () => /* html */ `
   </div>
 
   <div class="Box1">
-  <center><div class="Card__question"><strong>Frage 3</strong></div><center>
+  <div class="Card__question"><strong>Frage 3</strong></div>
   <p class="Card__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
   <button class="Card__answer">Antwort</button>
   <div class="Card__choice">
@@ -37,7 +37,7 @@ export const Default= () => /* html */ `
   </div>
 
   <div class="Box1">
-  <center><div class="Card__question"><strong>Frage 4</strong></div><center>
+  <div class="Card__question"><strong>Frage 4</strong></div>
   <p class="Card__content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
   <button class="Card__answer">Antwort</button>
   <div class="Card__choice">
