@@ -33,6 +33,11 @@
   justify-content: center;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+}
+
 .Card__answer {
   display: flex;
   justify-content: center;
@@ -49,9 +54,6 @@
 }
 
 .Box1 {
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
   background-color: rgba(208, 154, 17, 0.221);
   border-radius: 20px;
   padding: 20px;
