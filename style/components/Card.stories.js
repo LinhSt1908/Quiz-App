@@ -66,11 +66,14 @@ export const WithAnswer= () => /* html */ `
 `;
 
 export const Footer= () => /* html */ `
-  <article class="Card Card--error">
-    <h4 class="Card__title">Quiz App</h4>
-    <p class="Card__content">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
-      eum 
-    </p>
-  </article>
+      <footer>
+      <div class="Footer">
+      <div class="Home">🏠</div>
+      <div class="bookmark">🔖</div>
+      <div class="Creative">📝</div>
+      <div class="Profile">👤</div>
+        
+      </div>
+    </footer>
+  
 `;
