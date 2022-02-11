@@ -55,6 +55,11 @@
   margin-bottom: 10px;
 }
 
+.border {
+  border: 20px solid red;
+  border-image-source: url(asia-border.jpg);
+}
+
 .boxSmall {
   display: flex;
   justify-content: space-evenly;
