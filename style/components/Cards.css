@@ -56,8 +56,9 @@
 }
 
 .border {
-  border: 20px solid red;
-  border-image-source: url(asia-border.jpg);
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(asia-border.jpg) 20% round;
 }
 
 .boxSmall {
