@@ -49,24 +49,21 @@
 .Box1 {
   background-color: rgba(208, 154, 17, 0.221);
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
   margin-left: 500px;
   margin-right: 500px;
   margin-bottom: 10px;
-}
-
-.border {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(asia-border.jpg) 20% round;
+  border: 35px solid rgba(212, 31, 11, 0.817);
+  border-image: url(asia-border.jpg) 35% round;
+  border-color: rgba(208, 154, 17, 0.221);
 }
 
 .boxSmall {
   display: flex;
   justify-content: space-evenly;
   box-sizing: border-box;
-  border-radius: 10px;
   width: 130px;
+  border-radius: 10px;
   border: 2px solid rgba(212, 31, 11, 0.817);
   padding: 15px;
   margin: 20px;
