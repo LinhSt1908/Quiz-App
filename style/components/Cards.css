@@ -8,7 +8,7 @@
   margin-bottom: 10px;
 }
 
-.Card--error {
+.Card__background {
   background-color: lightcoral;
 }
 
@@ -54,7 +54,7 @@
   margin-right: 500px;
   margin-bottom: 10px;
   border: 40px solid;
-  border-image: url(asia\ border.svg) 35% round;
+  border-image: url(asia\ border.svg) 35.5% round;
   border-color: rgba(208, 154, 17, 0.221);
 }
 
