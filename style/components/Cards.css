@@ -44,6 +44,7 @@
 .Card__choice {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .Box1 {
@@ -53,8 +54,8 @@
   margin-left: 500px;
   margin-right: 500px;
   margin-bottom: 10px;
-  border: 35px solid rgba(212, 31, 11, 0.817);
-  border-image: url(asia-border.jpg) 35% round;
+  border: 40px solid;
+  border-image: url(asia\ border.svg) 35% round;
   border-color: rgba(208, 154, 17, 0.221);
 }
 
@@ -78,4 +79,10 @@
   align-items: center;
   margin: 10px;
   padding: 20px;
+}
+
+.icon {
+  display: flex;
+  height: 60px;
+  justify-content: flex-start;
 }
