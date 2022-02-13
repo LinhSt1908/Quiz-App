@@ -43,7 +43,8 @@
 
 .Card__choice {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -78,4 +79,17 @@
   align-items: center;
   margin: 10px;
   padding: 20px;
+}
+
+.Create1 {
+  background-color: rgba(208, 154, 17, 0.221);
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 10px;
+  border: 40px solid;
+  border-image: url(asia\ border.svg) 35.5% round;
+  border-color: rgba(208, 154, 17, 0.221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
