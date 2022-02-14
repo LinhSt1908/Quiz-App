@@ -49,14 +49,46 @@ export const WithAnswer= () => /* html */ `
 `;
 
 export const Footer= () => /* html */ `
-      <footer>
-      <div class="Footer">
-      <div class="Home">🏠</div>
-      <div class="bookmark">🔖</div>
-      <div class="Creative">📝</div>
-      <div class="Profile">👤</div>
-        
-      </div>
-    </footer>
+    
   
+    <nav class="Footer">
+      <ul>
+        <li>
+        <a href="./index.html">
+            <img src="https://img.icons8.com/ios/50/000000/home--v1.png" />
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+        <a href="./Bookmark.html">
+            <img
+              src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/000000/external-bookmark-documents-icongeek26-outline-icongeek26.png"
+            />
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+        <a href="./create.html">
+            <img
+              src="https://img.icons8.com/external-prettycons-lineal-prettycons/49/000000/external-marker-education-prettycons-lineal-prettycons-1.png"
+            />
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+        <a href="./profile.html">
+            <img
+              src="https://img.icons8.com/external-sbts2018-mixed-sbts2018/58/000000/external-profile-social-media-sbts2018-mixed-sbts2018-1.png"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+       
 `;
