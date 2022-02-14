@@ -11,3 +11,7 @@ form * {
   display: block;
   margin: 0.5rem;
 }
+
+ul {
+  list-style: none;
+}
