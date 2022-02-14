@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/components/Cards.css" />
     <link rel="stylesheet" href="style/base.css" />
+    <link rel="stylesheet" href="style/variables.css" />
     <script src="script.js" defer></script>
 
     <title>Quiz App</title>
@@ -21,7 +22,16 @@
       <p class="Card__content">
         Welches Land verzehrt jährlich pro Kopf am meisten Schokolade?
       </p>
-      <div class="button"><button class="Card__answer">Antwort</button></div>
+
+      <!-- Dropdown einfügen -->
+      <div class="dropdown">
+        <button onclick="myFunction()" class="btn">Antwort</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#Schweiz">Schweiz</a>
+        </div>
+      </div>
+      <!-- Dropdown Ende -->
+
       <div class="Card__choice">
         <div class="boxSmall">#Süßigkeiten</div>
         <div class="boxSmall">#International</div>
