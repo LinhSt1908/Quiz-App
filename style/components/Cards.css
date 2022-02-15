@@ -33,11 +33,20 @@
 
 /* Antwort Button Anfang; muss noch bearbeitet werden !!!*/
 .btn {
+<<<<<<< Updated upstream
   background-color: red;
+=======
+  background-color: var(--background-color);
+>>>>>>> Stashed changes
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
+<<<<<<< Updated upstream
+=======
+  cursor: pointer;
+  border-radius: 0.625em;
+>>>>>>> Stashed changes
 }
 
 .dropdown {
@@ -55,7 +64,11 @@
   display: none;
   position: absolute;
   top: 50px;
+<<<<<<< Updated upstream
   background-color: #f1f1f1;
+=======
+  background-color: white;
+>>>>>>> Stashed changes
   min-width: 160px;
 }
 
@@ -94,7 +107,7 @@
   box-sizing: border-box;
   width: 8.125em;
   border-radius: 0.625em;
-  border: 0.125em solid rgba(212, 31, 11, 0.817);
+  border: 0.125em solid rgba(210, 89, 24, 0.927);
   padding: 0.938em;
   margin: 1.25em;
 }

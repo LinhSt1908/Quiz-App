@@ -1,12 +1,11 @@
-import DefaultHtml from "./Card.default.html";
+import DefaultHtml from './Card.default.html';
 
 
 export default {
-  title: "Components/Card",
+  title: 'Components/Card',
 };
 
-
-export const Default= () => /* html */ `
+export const Default = () => /* html */ `
 <article class="Card Card--error">
 <h4 class="Card__title">QUIZ APP</h4>
 </article>
@@ -25,6 +24,17 @@ export const Default= () => /* html */ `
       <a href="#Schweiz">Schweiz</a>
       </div>
     </div>
+<<<<<<< Updated upstream
+=======
+
+
+      <div class="Card__choice">
+        <div class="boxSmall">#Süßigkeiten</div>
+        <div class="boxSmall">#International</div>
+        <div class="boxSmall">#Schokolade</div>
+      </div>
+    </div>
+>>>>>>> Stashed changes
 
 
       <div class="Card__choice">
@@ -37,7 +47,7 @@ export const Default= () => /* html */ `
 
 `;  
 
-export const Bookmarked= () => /* html */ `
+export const Bookmarked = () => /* html */ `
   <article class="Card Card--error">
     <h4 class="Card__title">Quiz App</h4>
     <p class="Card__content">
@@ -46,7 +56,11 @@ export const Bookmarked= () => /* html */ `
   </article>
 `;
 
+<<<<<<< Updated upstream
 export const WithAnswer= () => /* html */ `
+=======
+export const WithAnswer = () => /* html */ `
+>>>>>>> Stashed changes
 <div class="Box1">
 <div class="Card__question"><strong>Frage 1</strong></div>
 <p class="Card__content">
@@ -61,7 +75,7 @@ export const WithAnswer= () => /* html */ `
 </div>
 `;
 
-export const Footer= () => /* html */ `
+export const Footer = () => /* html */ `
     
   
     <nav class="Footer">

@@ -1,4 +1,4 @@
-@import "style/variables.css";
-@import "style/base.css";
-@import "style/utils.css";
-@import "style/components/Cards.css";
+@import 'style/variables.css';
+@import 'style/base.css';
+@import 'style/utils.css';
+@import 'style/components/Cards.css';
