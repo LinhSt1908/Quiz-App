@@ -3,8 +3,8 @@
 .Card {
   border-radius: 1.25em;
   padding: 0.625em;
-  margin-left: 31.25em;
-  margin-right: 31.25em;
+  margin-left: 18.75em;
+  margin-right: 18.75em;
   margin-bottom: 0.625em;
 }
 
@@ -83,11 +83,11 @@
 .Box1 {
   background-color: var(---background-color);
   padding: 1.875em;
-  margin-left: 31.25em;
-  margin-right: 31.25em;
+  margin-left: 18.75em;
+  margin-right: 18.75em;
   margin-bottom: 10px;
   border: 2.5em solid;
-  border-image: url(asia\ border.svg) 35.5% round;
+  border-image: url(asia\ border.svg) 35% round;
 }
 
 .boxSmall {
@@ -114,11 +114,11 @@
 
 .Create1 {
   background-color: var(---background-color);
-  margin-left: 31.25em;
-  margin-right: 31.25em;
+  margin-left: 18.75em;
+  margin-right: 18.75em;
   margin-bottom: 0.625em;
   border: 2.5em solid;
-  border-image: url(asia\ border.svg) 35.5% round;
+  border-image: url(asia\ border.svg) 34% round;
   border-color: var(---background-color);
   display: flex;
   flex-direction: column;
