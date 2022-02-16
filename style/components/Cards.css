@@ -87,7 +87,7 @@
   margin-right: 18.75em;
   margin-bottom: 10px;
   border: 2.5em solid;
-  border-image: url(asia\ border.svg) 35% round;
+  border-image: url(border.svg) 35% round;
 }
 
 .boxSmall {
@@ -118,7 +118,7 @@
   margin-right: 18.75em;
   margin-bottom: 0.625em;
   border: 2.5em solid;
-  border-image: url(asia\ border.svg) 34% round;
+  border-image: url(border.svg) 34% round;
   border-color: var(---background-color);
   display: flex;
   flex-direction: column;
