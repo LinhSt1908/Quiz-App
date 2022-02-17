@@ -29,11 +29,15 @@
         >
           <label for="add_here">Add right here:</label>
           <textarea
+            data-js="input-form"
             name="add_here"
             id="add_here"
             cols="70"
             rows="10"
           ></textarea>
+          <div class="Form__container">
+            Count:<span data-js="input-counter"></span>
+          </div>
           <input type="submit" value="SUBMIT!" />
         </form>
       </div>
