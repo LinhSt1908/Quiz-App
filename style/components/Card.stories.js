@@ -1,11 +1,8 @@
-import DefaultHtml from './Card.default.html';
-
-
 export default {
   title: 'Components/Card',
 };
 
-export const DefaultHtml = () => /* html */ `
+export const Default = () => /* html */ `
 <article class="Card Card--error">
 <h4 class="Card__title">QUIZ APP</h4>
 </article>
@@ -42,7 +39,7 @@ export const DefaultHtml = () => /* html */ `
     </div>
 
 
-`;  
+`;
 
 export const Bookmarked = () => /* html */ `
   <article class="Card Card--error">

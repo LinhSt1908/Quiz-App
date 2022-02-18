@@ -1,4 +1,4 @@
 :root {
-  --background-color: lightcoral;
-  ---background-color: rgba(208, 154, 17, 0.221);
+  --bg-color-dark: rgb(240, 127, 127);
+  --bg-color-bright: rgba(233, 179, 43, 35.8%);
 }
