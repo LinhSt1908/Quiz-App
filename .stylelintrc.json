@@ -3,6 +3,8 @@
   "rules": {
     "selector-class-pattern": ".*", 
     "color-function-notation": null,
-    "function-url-quotes": null
+    "function-url-quotes": null,
+    "alpha-value-notation": null,
+    "declaration-block-no-duplicate-properties": null
   }
 }

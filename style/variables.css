@@ -1,4 +1,5 @@
 :root {
   --bg-color-dark: rgb(240, 127, 127);
-  --bg-color-bright: rgba(233, 179, 43, 35.8%);
+  --bg-color-bright: rgba(225, 177, 57, 0.297);
+  --border-color: rgba(174, 10, 73, 98.8%);
 }
