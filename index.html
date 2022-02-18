@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/base.css" />
     <link rel="stylesheet" href="style/variables.css" />
     <script src="script.js" defer></script>
+    <script src="button.js" defer></script>
 
     <title>Quiz App</title>
   </head>
@@ -18,67 +19,67 @@
     <br />
     <!-- Frage 1 -->
     <div class="Box1">
-      <div class="Card__question"><strong>Frage 1</strong></div>
+      <div class="Card__question"><strong>Question 1</strong></div>
       <p class="Card__content">
-        Welches Land verzehrt jährlich pro Kopf am meisten Schokolade?
+        Which country consumes the most chocolate per capita each year?
       </p>
 
       <!-- Dropdown einfügen -->
-      <div class="dropdown">
-        <button onclick="myFunction()" class="btn">Antwort</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#Schweiz">Schweiz</a>
+      <div class="dropdown" data-js="answer">
+        <div class="button">
+          <button class="Card_answer" data-js="answer-button">Antwort</button>
         </div>
+        <div class="dropdown-content" data-js="final-answer">Switzerland</div>
       </div>
       <!-- Dropdown Ende -->
 
       <div class="Card__choice">
-        <div class="boxSmall">#Süßigkeiten</div>
-        <div class="boxSmall">#International</div>
-        <div class="boxSmall">#Schokolade</div>
+        <div class="boxSmall">Germany</div>
+        <div class="boxSmall">South Africa</div>
+        <div class="boxSmall">Switzerland</div>
       </div>
     </div>
     <br />
     <br />
     <!-- Frage 2 -->
     <div class="Box1">
-      <div class="Card__question"><strong>Frage 2</strong></div>
+      <div class="Card__question"><strong>Question 2</strong></div>
       <p class="Card__content">
-        Delhi steht an welcher Stelle als bevölkerungsreichste Stadt der Welt?
+        Delhi stands at which position as the most populous city in the world?
       </p>
-      <div class="button"><button class="Card__answer">Antwort</button></div>
+      <div class="button"><button class="Card__answer">Answer</button></div>
       <div class="Card__choice">
-        <div class="boxSmall">#Rangliste</div>
-        <div class="boxSmall">#BigCity</div>
-        <div class="boxSmall">#Asien</div>
+        <div class="boxSmall">First</div>
+        <div class="boxSmall">Second</div>
+        <div class="boxSmall">Third</div>
       </div>
     </div>
     <br />
     <br />
     <!-- Frage 3 -->
     <div class="Box1">
-      <div class="Card__question"><strong>Frage 3</strong></div>
-      <p class="Card__content">In welchem Jahr wurde Hello Kitty entworfen?</p>
-      <div class="button"><button class="Card__answer">Antwort</button></div>
+      <div class="Card__question"><strong>Question 3</strong></div>
+      <p class="Card__content">In which year was Hello Kitty designed?</p>
+      <div class="button"><button class="Card__answer">Answer</button></div>
       <div class="Card__choice">
-        <div class="boxSmall">#Kätzchen</div>
-        <div class="boxSmall">#Japan</div>
-        <div class="boxSmall">#Beliebt</div>
+        <div class="boxSmall">2001</div>
+        <div class="boxSmall">1963</div>
+        <div class="boxSmall">1974</div>
       </div>
     </div>
     <br />
     <br />
     <!-- Frage 4 -->
     <div class="Box1">
-      <div class="Card__question"><strong>Frage 4</strong></div>
+      <div class="Card__question"><strong>Question 4</strong></div>
       <p class="Card__content">
-        Welche Küche war im Jahr 2021 bei den Deutschen am beliebtesten?
+        Which cuisine was most popular among Germans in 2021?
       </p>
-      <div class="button"><button class="Card__answer">Antwort</button></div>
+      <div class="button"><button class="Card__answer">Answer</button></div>
       <div class="Card__choice">
-        <div class="boxSmall">#Essen</div>
-        <div class="boxSmall">#International</div>
-        <div class="boxSmall">#Rangliste</div>
+        <div class="boxSmall">Japanese</div>
+        <div class="boxSmall">Italian</div>
+        <div class="boxSmall">American</div>
       </div>
     </div>
 

@@ -3,13 +3,12 @@
 .Card {
   border-radius: 1.25em;
   padding: 0.625em;
-  margin-left: 18.75em;
-  margin-right: 18.75em;
   margin-bottom: 0.625em;
+  border: 5px solid rgba(174, 10, 73, 98.8%);
 }
 
 .Card__background {
-  background-color: var(--background-color);
+  background-color: var(--bg-color-dark);
 }
 
 .Card__title {
@@ -31,9 +30,9 @@
   justify-content: center;
 }
 
-/* Antwort Button Anfang; muss noch bearbeitet werden !!!*/
+/* Antwort Button Anfang; muss noch bearbeitet werden!!! */
 .btn {
-  background-color: var(--background-color);
+  background-color: var(--bg-color-dark);
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -61,6 +60,12 @@
   min-width: 160px;
 }
 
+.visible {
+  display: initial;
+  background-color: white;
+  min-width: 160px;
+}
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -71,6 +76,7 @@
 .show {
   display: block;
 }
+
 /* Antwort Button Ende */
 
 .Card__choice {
@@ -81,7 +87,7 @@
 }
 
 .Box1 {
-  background-color: var(---background-color);
+  background-color: var(--bg-color-bright);
   padding: 1.875em;
   margin-left: 18.75em;
   margin-right: 18.75em;
@@ -96,13 +102,13 @@
   box-sizing: border-box;
   width: 8.125em;
   border-radius: 0.625em;
-  border: 0.125em solid rgba(210, 89, 24, 0.927);
+  border: 0.125em solid rgba(210, 89, 24, 92.7%);
   padding: 0.938em;
   margin: 1.25em;
 }
 
 .Footer {
-  background-color: var(--background-color);
+  background-color: var(--bg-color-dark);
   border-radius: 1.25em;
   display: flex;
   flex-direction: row;
@@ -110,18 +116,24 @@
   align-items: center;
   margin-top: 35px;
   padding: 0.625em;
+  position: sticky;
 }
 
 .Create1 {
-  background-color: var(---background-color);
+  background-color: var(--bg-color-bright);
   margin-left: 18.75em;
   margin-right: 18.75em;
   margin-bottom: 0.625em;
   border: 2.5em solid;
   border-image: url(border.svg) 34% round;
-  border-color: var(---background-color);
+  border-color: var(--bg-color-bright);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
