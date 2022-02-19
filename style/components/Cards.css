@@ -1,9 +1,16 @@
 /* BEM — Block Element Modifier */
 
+.Nav__parent {
+  position: relative;
+  min-height: 19vh;
+}
+
 .Card {
   border-radius: 1.25em;
-  margin-bottom: 0.625em;
   border: 5px solid var(--border-color);
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 
 .Card__background {
@@ -75,6 +82,10 @@
   margin-bottom: 10px;
   border: 3.5em solid;
   border-image: url(border.svg) 37.9% round;
+  @media screen (min-width: 400px) {
+    margin-left: 10em;
+  margin-right: 10em;
+  }
 }
 
 .bookmark {
@@ -90,7 +101,7 @@
   display: flex;
   justify-content: space-evenly;
   box-sizing: border-box;
-  width: 8.125em;
+  max-width: 8.125em;
   border-radius: 0.625em;
   border: 0.17em solid rgba(210, 89, 24, 92.7%);
   padding: 0.938em;
@@ -99,7 +110,7 @@
 
 .Footer__parent {
   position: relative;
-  height: 17vh;
+  min-height: 17vh;
 }
 
 .Footer {
@@ -133,4 +144,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 500px){
+  article {
+    width: 100%;
+  }
 }
