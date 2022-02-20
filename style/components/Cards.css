@@ -2,7 +2,7 @@
 
 .Nav__parent {
   position: relative;
-  min-height: 19vh;
+  min-height: 12vh;
 }
 
 .Card {
@@ -11,6 +11,7 @@
   position: fixed;
   right: 0;
   left: 0;
+  top: 0;
 }
 
 .Card__background {
@@ -19,7 +20,7 @@
 
 .Card__title {
   font-size: 2rem;
-  margin: 35px;
+  margin: 15px;
   display: flex;
   justify-content: center;
 }
@@ -76,32 +77,33 @@
 }
 
 .Box1 {
-  background-color: var(--bg-color-bright);
-  margin-left: 18.75em;
-  margin-right: 18.75em;
-  margin-bottom: 10px;
-  border: 3.5em solid;
-  border-image: url(border.svg) 37.9% round;
-  @media screen (min-width: 400px) {
-    margin-left: 10em;
-  margin-right: 10em;
-  }
+      background-color: var(--bg-color-bright);
+      margin-left: 18.75em;
+      margin-right: 18.75em;
+      margin-bottom: 10px;
+      border: 3.5em solid;
+      border-image: url(border.svg) 37.9% round;
+}
+
+@media screen and (max-width: 700px) {
+    .Box1 {
+      
+    }
 }
 
 .bookmark {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
-  bottom: 70px;
-  right: -10px;
   height: 70px;
+  bottom: 70px;
+  z-index: -1;
 }
 
 .boxSmall {
   display: flex;
   justify-content: space-evenly;
-  box-sizing: border-box;
-  max-width: 8.125em;
+  width: 8.125em;
   border-radius: 0.625em;
   border: 0.17em solid rgba(210, 89, 24, 92.7%);
   padding: 0.938em;
@@ -127,6 +129,11 @@
   left: 0;
 }
 
+.Icons {
+  padding: 5px;
+  margin: 5px;
+}
+
 .Create1 {
   background-color: var(--bg-color-bright);
   margin-left: 18.75em;
@@ -146,8 +153,3 @@
   align-items: center;
 }
 
-@media screen and (max-width: 500px){
-  article {
-    width: 100%;
-  }
-}
