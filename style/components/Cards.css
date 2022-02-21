@@ -29,10 +29,11 @@
 .Card__content {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 1.4em;
 }
 
-.button {
+.Button {
   display: flex;
   justify-content: center;
 }
@@ -66,7 +67,6 @@
   display: initial;
   min-width: 160px;
 }
-
 /* Antwort Button Ende */
 
 .Card__choice {
@@ -76,22 +76,17 @@
   flex-wrap: wrap;
 }
 
-.Box1 {
-      background-color: var(--bg-color-bright);
-      margin-left: 18.75em;
-      margin-right: 18.75em;
-      margin-bottom: 10px;
-      border: 3.5em solid;
-      border-image: url(border.svg) 37.9% round;
+.Card__box {
+  background-color: var(--bg-color-bright);
+  margin-left: 5.75em;
+  margin-right: 5.75em;
+  margin-bottom: 10px;
+  border: 3.5em solid;
+  border-image: url(border.svg) 37.9% round;
+  min-width: 500px;
 }
 
-@media screen and (max-width: 700px) {
-    .Box1 {
-      
-    }
-}
-
-.bookmark {
+.Bookmark {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
@@ -100,7 +95,7 @@
   z-index: -1;
 }
 
-.boxSmall {
+.Box__small {
   display: flex;
   justify-content: space-evenly;
   width: 8.125em;
@@ -110,46 +105,4 @@
   margin: 0.625em;
 }
 
-.Footer__parent {
-  position: relative;
-  min-height: 17vh;
-}
-
-.Footer {
-  background-color: var(--bg-color-dark);
-  border-radius: 1.25em;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 35px;
-  border: 5px solid var(--border-color);
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.Icons {
-  padding: 5px;
-  margin: 5px;
-}
-
-.Create1 {
-  background-color: var(--bg-color-bright);
-  margin-left: 18.75em;
-  margin-right: 18.75em;
-  margin-bottom: 0.625em;
-  border: 3.5em solid;
-  border-image: url(border.svg) 37.9% round;
-  border-color: var(--bg-color-bright);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
