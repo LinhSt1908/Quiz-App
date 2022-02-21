@@ -1,0 +1,18 @@
+.Create__container {
+    background-color: var(--bg-color-bright);
+    margin-left: 18.75em;
+    margin-right: 18.75em;
+    margin-bottom: 0.625em;
+    border: 3.5em solid;
+    border-image: url(border.svg) 37.9% round;
+    border-color: var(--bg-color-bright);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
