@@ -7,10 +7,6 @@ html {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-form * {
-  margin: 0.5rem;
-}
-
 ul {
   list-style: none;
 }
