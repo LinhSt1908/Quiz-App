@@ -5,6 +5,7 @@
     "color-function-notation": null,
     "function-url-quotes": null,
     "alpha-value-notation": null,
-    "declaration-block-no-duplicate-properties": null
+    "declaration-block-no-duplicate-properties": null,
+    "comment-empty-line-before": null
   }
 }
