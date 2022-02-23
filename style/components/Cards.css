@@ -1,8 +1,10 @@
 /* BEM — Block Element Modifier */
 
+
 .Nav__parent {
   position: relative;
   min-height: 12vh;
+  
 }
 
 .Card {
@@ -23,6 +25,7 @@
   margin: 15px;
   display: flex;
   justify-content: center;
+  
 }
 
 .Card__question,
@@ -31,14 +34,17 @@
   justify-content: center;
   text-align: center;
   font-size: 1.4em;
+  
 }
 
 .Button {
   display: flex;
   justify-content: center;
+  
 }
 
 /* Antwort Button Anfang */
+
 .Card_answer {
   background-color: var(--bg-color-dark);
   padding: 1em;
@@ -67,6 +73,7 @@
   display: initial;
   min-width: 160px;
 }
+
 /* Antwort Button Ende */
 
 .Card__choice {
@@ -74,16 +81,19 @@
   justify-content: space-evenly;
   gap: 0.625em;
   flex-wrap: wrap;
+  
 }
 
 .Card__box {
+  position: relative;
+  /* z-index: -1; */
   background-color: var(--bg-color-bright);
-  margin-left: 5.75em;
-  margin-right: 5.75em;
+  margin: 20px;
   margin-bottom: 10px;
   border: 3.5em solid;
   border-image: url(border.svg) 37.9% round;
-  min-width: 500px;
+  max-width: 768px;
+  
 }
 
 .Bookmark {
@@ -93,6 +103,7 @@
   height: 70px;
   bottom: 70px;
   z-index: -1;
+  
 }
 
 .Box__small {
