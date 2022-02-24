@@ -4,13 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/components/Cards.css" />
-    <link rel="stylesheet" href="style/components/Footer.css" />
-    <link rel="stylesheet" href="style/components/Create.css" />
-    <link rel="stylesheet" href="style/base.css" />
-    <link rel="stylesheet" href="style/variables.css" />
-    <script src="script.js" defer></script>
-    <script src="button.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer type="module"></script>
 
     <title>Create</title>
   </head>
@@ -58,12 +53,24 @@
         You've collected some tough questions? Let's write down your answers!
       </p>
       <form
-        class="Input"
-        aria-labelledby="form-heading2"
-        aria-describedby="form-description2"
+        class="input"
+        aria-labelledby="form-heading"
+        aria-describedby="form-description"
       >
         <label for="add_here">Add right here:</label>
-        <textarea name="add_here" id="add_here2" cols="50" rows="10"></textarea>
+        <p></p>
+        <textarea
+          data-js="input-form"
+          name="add_here"
+          id="add_here_"
+          cols="50"
+          rows="10"
+        ></textarea>
+        <div class="Form__container">
+          <p></p>
+          Count:<span data-js="input-counter"></span>
+          <p></p>
+        </div>
         <input type="submit" value="SUBMIT!" />
       </form>
     </div>
