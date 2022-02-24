@@ -8,4 +8,3 @@ dropdown.forEach(x => {
     finalAnswer.classList.toggle('visible');
   });
 });
-
